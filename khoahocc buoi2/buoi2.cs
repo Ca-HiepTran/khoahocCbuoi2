@@ -2,12 +2,13 @@
 
 namespace khoahocc_buoi2
 {
-    class Program
+    class buoi2
     {
         static void Main()
         {
             //Phan1_1();
-            Phan1_2();
+            //Phan1_2();
+            Phan1_3();
         }
         static void Phan1_1()
         {
@@ -44,6 +45,24 @@ namespace khoahocc_buoi2
             Console.WriteLine("Kiem tra co chu T: {0}", _HoTen.Contains("T"));
             //contains dung de xac dinh true false   Contains("phan dung lam chuan de xac dinh T F")
             Console.ReadLine();
+        }
+
+        static void Phan1_3()
+        {
+            //Toán tử
+            Console.Write("Moi nhap so nguyen can kiem tra, N = ");
+            string _str_SoNguyen = Console.ReadLine(); // đọc ký tự mà mình vừa ghi ra màn hình
+            int _int_SoNguyen = Convert.ToInt32(_str_SoNguyen); //chuyển dạng biến từ chuỗi sang số nguyên
+            //Toán tử 3 ngôi
+            //a) kiểm tra chẵn lẻ
+            string _ketqua_A = (_int_SoNguyen % 2 == 0) ? "So chan":"So le";
+            Console.WriteLine("a) So N = {0} la {1}", _int_SoNguyen, _ketqua_A);
+            
+            //b) kiểm tra âm dương
+            string _ketqua_B = (_int_SoNguyen >= 0) ? "So duong" : "So am";
+            Console.WriteLine("b) So N = {0} la {1}", _int_SoNguyen, _ketqua_B);
+            Console.ReadLine();
+
         }
     }
 }
