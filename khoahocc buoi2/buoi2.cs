@@ -8,7 +8,7 @@ namespace khoahocc_buoi2
         {
             //Phan1_1();
             //Phan1_2();
-            Phan1_3();
+            //Phan1_3();
         }
         static void Phan1_1()
         {
