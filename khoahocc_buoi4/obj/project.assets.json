@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "khoahocc_buoi4/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/khoahocc_buoi4.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/khoahocc_buoi4.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "khoahocc_buoi4/1.0.0": {
-      "type": "project",
-      "path": "../khoahocc_buoi4/khoahocc_buoi4.csproj",
-      "msbuildProject": "../khoahocc_buoi4/khoahocc_buoi4.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "khoahocc_buoi4 >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\MSI LAPTOP\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MSI LAPTOP\\source\\repos\\khoahocc buoi2\\khoahocc buoi 3\\khoahocc buoi 3.csproj",
-      "projectName": "khoahocc buoi 3",
-      "projectPath": "C:\\Users\\MSI LAPTOP\\source\\repos\\khoahocc buoi2\\khoahocc buoi 3\\khoahocc buoi 3.csproj",
+      "projectUniqueName": "C:\\Users\\MSI LAPTOP\\source\\repos\\khoahocc buoi2\\khoahocc_buoi4\\khoahocc_buoi4.csproj",
+      "projectName": "khoahocc_buoi4",
+      "projectPath": "C:\\Users\\MSI LAPTOP\\source\\repos\\khoahocc buoi2\\khoahocc_buoi4\\khoahocc_buoi4.csproj",
       "packagesPath": "C:\\Users\\MSI LAPTOP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MSI LAPTOP\\source\\repos\\khoahocc buoi2\\khoahocc buoi 3\\obj\\",
+      "outputPath": "C:\\Users\\MSI LAPTOP\\source\\repos\\khoahocc buoi2\\khoahocc_buoi4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI LAPTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\MSI LAPTOP\\source\\repos\\khoahocc buoi2\\khoahocc_buoi4\\khoahocc_buoi4.csproj": {
-              "projectPath": "C:\\Users\\MSI LAPTOP\\source\\repos\\khoahocc buoi2\\khoahocc_buoi4\\khoahocc_buoi4.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -3,11 +3,6 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>khoahocc_buoi_3</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\khoahocc_buoi4\khoahocc_buoi4.csproj" />
-  </ItemGroup>
 
 </Project>

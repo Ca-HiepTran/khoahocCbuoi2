@@ -11,3 +11,10 @@ C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc buoi 3\obj\Debug\netcor
 C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc buoi 3\obj\Debug\netcoreapp3.1\khoahocc buoi 3.dll
 C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc buoi 3\obj\Debug\netcoreapp3.1\khoahocc buoi 3.pdb
 C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc buoi 3\obj\Debug\netcoreapp3.1\khoahocc buoi 3.genruntimeconfig.cache
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc buoi 3\bin\Debug\netcoreapp3.1\khoahocc_buoi4.deps.json
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc buoi 3\bin\Debug\netcoreapp3.1\khoahocc_buoi4.runtimeconfig.json
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc buoi 3\bin\Debug\netcoreapp3.1\khoahocc_buoi4.runtimeconfig.dev.json
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc buoi 3\bin\Debug\netcoreapp3.1\khoahocc_buoi4.exe
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc buoi 3\bin\Debug\netcoreapp3.1\khoahocc_buoi4.dll
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc buoi 3\bin\Debug\netcoreapp3.1\khoahocc_buoi4.pdb
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc buoi 3\obj\Debug\netcoreapp3.1\khoahocc buoi 3.csproj.CopyComplete

@@ -70,15 +70,25 @@ namespace khoahocc_buoi_3
             //Nhâp số
             // b) Kiểm tra các ngoại lệ khi nhập điểm:
             //Không nhập gì.
+            //kiếm tra nó là số ha không
             //Nhập điểm âm
             //Nhập quá phạm vi 0 đến 10.
             //Nhập chữ
             Console.WriteLine("Bai tap 1: Nhap thong tin sinh vien: ");
-            string _Hoten_KQ = NhapDiem();
-            Console.WriteLine("Xin chao ban " + _Hoten_KQ);
+            //string _Hoten_KQ = NhapTen();// a)
+            //Console.WriteLine("Xin chao ban " + _Hoten_KQ); // a)
+            double _DiemHoa = NhapDiem("Hoa");
+            double _DiemToan = NhapDiem("Toan");
+            double _DiemLy = NhapDiem("Ly");
+            Console.WriteLine("Diem mon hoa cua ban la: {0} đ", _DiemHoa);
+            Console.WriteLine("Diem mon hoa cua ban la: {0} đ", _DiemToan);
+            Console.WriteLine("Diem mon hoa cua ban la: {0} đ", _DiemLy);
+            double _DTB = (_DiemHoa + _DiemLy + _DiemToan) / 3;
+            string _HocLuc = Danhgiahocluc(_DTB);
+            Console.WriteLine("Hoc luc cua ban la : {0} ", _HocLuc);
             Console.ReadLine();
         }
-        private static string NhapDiem() // loi o day nay
+        static string NhapTen() // loi o day nay
         {
             Console.Write("Ho ten cua ban la: ");
             string _Hoten = Console.ReadLine();
@@ -93,25 +103,83 @@ namespace khoahocc_buoi_3
                     else
                     {
                         Console.WriteLine("Ho ten cua ban qua ngan! ");
-                        NhapDiem();
+                        NhapTen();
                     }
                 }
                 else
                 {
                     Console.WriteLine("Khong duoc nhap so vao ho ten! ");
-                    NhapDiem();
+                    NhapTen();
                 }
             }
             else
             {
                 Console.WriteLine("Ban chua nhap ho ten cua ban ! ");
-                NhapDiem();
+                NhapTen();
             }
             //if (string.IsNullOrEmpty(_Hoten)) && string.IsNullOrWhiteSpace(_Hoten))
             //{
 
             //}
             return ""; // bo di se loi
+        }
+        static double NhapDiem(string _TenMonHoc)
+        {
+            double _dbl_Diem = 0.0;
+            Console.Write("Diem mon {0} ban la: ", _TenMonHoc);
+            string _str_Diem = Console.ReadLine();
+            if (_str_Diem != "" && _str_Diem != " ") // DK1: kiem tra rong
+            {
+                if (char.IsNumber(_str_Diem,0)) // DK2 : kiem tra la so hay khong
+                {
+                    _dbl_Diem = double.Parse(_str_Diem);
+                    if (_dbl_Diem >= 0) // DK3 : kiem tra nhap so am
+                    {
+                        if (_dbl_Diem <= 10) // DK4 : kiem tra >0 <10
+                        {
+                            return _dbl_Diem;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Diem khong hop ly! ");
+                            NhapDiem(_TenMonHoc);
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Ban phai nhap so duong! ");
+                        NhapDiem(_TenMonHoc);
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Ban phai nhap so! ");
+                    NhapDiem(_TenMonHoc);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Ban chua nhap diem! ");
+                NhapDiem(_TenMonHoc);
+            }
+            return _dbl_Diem;
+        }
+        static string Danhgiahocluc(double _DTB)
+        {
+            string _HocLuc = "";
+            if (_DTB >=0 && _DTB <5)
+            {
+                _HocLuc = "Trung Binh";
+            }
+            else if (_DTB >=5 && _DTB <7)
+            {
+                _HocLuc = "Kha";
+            }
+            else if (_DTB >= 7 && _DTB < 10)
+            {
+                _HocLuc = "Gioi";
+            }
+                return _HocLuc;
         }
     }
 }

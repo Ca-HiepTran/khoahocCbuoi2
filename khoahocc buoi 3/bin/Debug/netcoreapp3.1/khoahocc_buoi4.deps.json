@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "khoahocc buoi 3/1.0.0": {
-        "dependencies": {
-          "khoahocc_buoi4": "1.0.0"
-        },
-        "runtime": {
-          "khoahocc buoi 3.dll": {}
-        }
-      },
       "khoahocc_buoi4/1.0.0": {
         "runtime": {
           "khoahocc_buoi4.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "khoahocc buoi 3/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "khoahocc_buoi4/1.0.0": {
       "type": "project",
       "serviceable": false,
