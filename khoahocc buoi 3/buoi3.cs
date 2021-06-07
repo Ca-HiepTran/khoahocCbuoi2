@@ -75,17 +75,44 @@ namespace khoahocc_buoi_3
             //Nhập quá phạm vi 0 đến 10.
             //Nhập chữ
             Console.WriteLine("Bai tap 1: Nhap thong tin sinh vien: ");
-            //string _Hoten_KQ = NhapTen();// a)
-            //Console.WriteLine("Xin chao ban " + _Hoten_KQ); // a)
+            string _Hoten_KQ = NhapTen();// a)
+            Console.WriteLine("Xin chao ban " + _Hoten_KQ); // a)
             double _DiemHoa = NhapDiem("Hoa");
             double _DiemToan = NhapDiem("Toan");
             double _DiemLy = NhapDiem("Ly");
-            Console.WriteLine("Diem mon hoa cua ban la: {0} đ", _DiemHoa);
-            Console.WriteLine("Diem mon hoa cua ban la: {0} đ", _DiemToan);
-            Console.WriteLine("Diem mon hoa cua ban la: {0} đ", _DiemLy);
-            double _DTB = (_DiemHoa + _DiemLy + _DiemToan) / 3;
+            //Console.WriteLine("Diem mon hoa cua ban la: {0} đ", _DiemHoa);
+            //Console.WriteLine("Diem mon hoa cua ban la: {0} đ", _DiemToan);
+            //Console.WriteLine("Diem mon hoa cua ban la: {0} đ", _DiemLy);
+            //double _DTB = (_DiemHoa + _DiemLy + _DiemToan) / 3; 
+            double _DTB = Math.Round((_DiemHoa + _DiemLy + _DiemToan) / 3,2); //để làm tròn n số sau dấu phẩy
             string _HocLuc = Danhgiahocluc(_DTB);
-            Console.WriteLine("Hoc luc cua ban la : {0} ", _HocLuc);
+            //Console.WriteLine("Hoc luc cua ban la : {0} ", _HocLuc);
+            //In ra dạng bảng 
+            Console.WriteLine("=======TONG KET=======");
+            //Tên cột
+            Console.Write("{0,-20}","Ho va ten " );
+            Console.Write("{0}", "|");
+            Console.Write("{0,-5}|", "Hoa");
+           
+            Console.Write("{0,-5}|", "Toan");
+            
+            Console.Write("{0,-5}|", "Ly");
+            
+            Console.Write("{0,-5}|", "DTB");
+            
+            Console.WriteLine("{0,-10}", "Hoc Luc \n");
+            //In kết quả
+            Console.Write("{0,-20}", _Hoten_KQ);
+            Console.Write("{0}", "|");
+            Console.Write("{0,-5}|", _DiemHoa );
+            
+            Console.Write("{0,-5}|", _DiemToan );
+            
+            Console.Write("{0,-5}|", _DiemLy);
+            
+            Console.Write("{0,-5}|", _DTB);
+            
+            Console.Write("{0,-10}", _HocLuc);
             Console.ReadLine();
         }
         static string NhapTen() // loi o day nay
