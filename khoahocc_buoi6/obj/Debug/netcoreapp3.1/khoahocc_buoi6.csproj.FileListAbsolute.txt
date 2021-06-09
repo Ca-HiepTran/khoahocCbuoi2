@@ -1,0 +1,13 @@
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc_buoi6\bin\Debug\netcoreapp3.1\khoahocc_buoi6.exe
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc_buoi6\bin\Debug\netcoreapp3.1\khoahocc_buoi6.deps.json
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc_buoi6\bin\Debug\netcoreapp3.1\khoahocc_buoi6.runtimeconfig.json
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc_buoi6\bin\Debug\netcoreapp3.1\khoahocc_buoi6.runtimeconfig.dev.json
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc_buoi6\bin\Debug\netcoreapp3.1\khoahocc_buoi6.dll
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc_buoi6\bin\Debug\netcoreapp3.1\khoahocc_buoi6.pdb
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc_buoi6\obj\Debug\netcoreapp3.1\khoahocc_buoi6.csprojAssemblyReference.cache
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc_buoi6\obj\Debug\netcoreapp3.1\khoahocc_buoi6.AssemblyInfoInputs.cache
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc_buoi6\obj\Debug\netcoreapp3.1\khoahocc_buoi6.AssemblyInfo.cs
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc_buoi6\obj\Debug\netcoreapp3.1\khoahocc_buoi6.csproj.CoreCompileInputs.cache
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc_buoi6\obj\Debug\netcoreapp3.1\khoahocc_buoi6.dll
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc_buoi6\obj\Debug\netcoreapp3.1\khoahocc_buoi6.pdb
+C:\Users\MSI LAPTOP\source\repos\khoahocc buoi2\khoahocc_buoi6\obj\Debug\netcoreapp3.1\khoahocc_buoi6.genruntimeconfig.cache

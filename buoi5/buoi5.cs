@@ -9,7 +9,8 @@ namespace buoi5
             //Phan5_1();
             //Phan5_2();
             //Phan5_3();
-            BaiTapBuoi5();
+            //BaiTapBuoi5();
+            BaiTapBuoi5_1();
         }
         static void Phan5_1()
         {
@@ -104,6 +105,21 @@ namespace buoi5
                 i++;
             }
             Console.WriteLine("Ban da dung!");
+            Console.ReadLine();
+        }
+        static void BaiTapBuoi5_1()
+        {
+            Console.Write("Nhap so muon chay den, N = ");
+            string _str_N = Console.ReadLine();
+            int _int_N = int.Parse(_str_N);
+            int i = 0;
+            while (i <= _int_N)// Điều kiện đúng
+            {
+                //Lệnh thực thi khi đk đúng
+                Console.Write("{0}\t", i);
+                i++; //i+=2 ( in ra số chẵn ) i+=3 ( chia hết cho 3  )
+            }
+
             Console.ReadLine();
         }
     }
